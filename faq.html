@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<script src="https://kit.fontawesome.com/19c84214fb.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+<title name>Computer Force development site</title>
+<style>
+/* see styles.css file */
+</style>
+</head>
+<body>
+<!-- Header section -->
+<div class="topLogo">
+  <img src="logo.jpg" alt="company logo">
+</div>
+<!-- Menu section -->
+<div class="topnav">
+  <div class="dropdown">
+    <button class="dropbtn"><a href="index.html">Home</a>
+    </button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="products.html">Products</a>
+    </button>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="members.html">Member <i class="fa fa-caret-down"></i></a>
+    </button>
+    <div class="dropdown-content">
+      <a href="registration.html">Members Registration</a>
+      <a href="benefit.html">Member benefits</a>
+      <a href="login.html">Member login</a>
+   </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="service.html">Service <i class="fa fa-caret-down"></i></a>
+    </button>
+    <div class="dropdown-content">
+      <a href="voucher.html">Gift Vouchers</a>
+      <a href="faq.html">FAQ</a>
+      <a href="delivery.html">Delivery information</a>
+      <a href="collect.html">Click and Collect information</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="enquire.html">Online Enquires</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="map.html">Site map</a>
+   </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="news.html">News <i class="fa fa-caret-down"></i></a> 
+    </button>
+    <div class="dropdown-content">
+      <a href="event.html">Upcoming Events</a>
+      <a href="blog.html">IT News /Blog</a>
+   </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn"><a href="about.html">About Us <i class="fa fa-caret-down"></i></a>
+    </button>
+    <div class="dropdown-content">
+      <a href="board.html">Board of Directors</a>
+      <a href="history.html">Company History</a>
+      <a href="award.html">Company Awards</a>
+   </div>
+  </div> 
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." aria-label="search" name="search">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+ <!-- start accordion for left section using checkbox, label, and div tags -->
+ <div class="column left">
+ <div style="padding-left:25px">
+     <h1>Frequently asked questions</h1> 
+ <div id="myaccordion">
+	<input type="checkbox" id="accordion1" class="hidecontent"/>
+	<label for="accordion1">Is Computer Force still delivering?</label>
+	<div class="content hidecontent">
+		<p>We have temporarily suspended our usual delivery operations out of selected Australian supermarkets until further notice. We’re ramping up delivery capacity out of our dedicated online customer fulfilment centres, and at this challenging time we are giving priority access to our most vulnerable customers including seniors, people with a disability and those in mandatory isolation. Once these vulnerable customers have been given first access, we are providing online deliveries to our valued customers where we can. We’ll look to resume our usual delivery operations out of our supermarkets as soon as possible.</p>
+	</div>
+	<input type="checkbox" id="accordion2" class="hidecontent"/>
+	<label for="accordion2">What happens if something I order is out of stock?</label>
+	<div class="content hidecontent">
+		<p>Due to increased product demand you may have a high level of out of stocks, especially for pantry or cleaning items. We apologise for any inconvenience this may cause and we will do our best to provide an alternative substitution if your preferred product is unavailable.</p>
+	</div>
+	<input type="checkbox" id="accordion3" class="hidecontent"/>
+	<label for="accordion3">How will I know when and where my order has been left?</label>
+	<div class="content hidecontent">
+		<p>You'll receive an SMS when your order is next in line for delivery and again once your order has been successfully delivered. Please note you may still need to buzz your driver in if you live in an apartment building.</p>
+	</div>
+    <input type="checkbox" id="accordion4" class="hidecontent"/>
+	<label for="accordion4">Why are Pick up and Delivery Now not available?</label>
+	<div class="content hidecontent">
+        <p>We have temporarily paused our online Pick up and Delivery Now (delivery in under 2 hours) services due to temporary shortages on a number of items in store. We believe this is a necessary step to allow our team members to prioritise restocking shelves and serving customers during this time.</p>
+	</div>
+    <input type="checkbox" id="accordion5" class="hidecontent"/>
+	<label for="accordion5">What is Priority Assistance?</label>
+	<div class="content hidecontent">
+        <p>We are making available and prioritising delivery windows to our most vulnerable customers, including seniors, people with a disability and those in mandatory isolation.</p>
+    </div>
+    <input type="checkbox" id="accordion6" class="hidecontent"/>
+	<label for="accordion6">What is contactless delivery?</label>
+	<div class="content hidecontent">
+        <p>We have moved to a contactless delivery service with all orders delivered to your front door. Our drivers will do their best to assist senior or disabled customers. For proof of delivery, we will be taking a photo of the groceries at your door, instead of obtaining a signature. We have made this decision in the best interest of both your and our drivers health.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Aside area section -->
+<div class="column right">
+    <h2>Purchases</h2>
+    <div class="container">
+        <div class="col-sm-6">0 items</div>
+        <div class="col-sm-6">Cart sub-total: $0</div>
+      </div>
+    </div>
+    <div class="checkout"><button class="btn">Go to Checkout</button></div><br>
+    <i class="fa-solid fa-cart-arrow-down" style="font-size:18px;color:rgb(180, 39, 180)"><a href="Shoppingcart.html" style="color:rgb(117, 51, 117)"> Shopping cart</i></a><br><br>
+    <i class="fa-solid fa-list-check" style="font-size:18px;color:rgb(229, 160, 229)"><a href="Wishlist.html" style="font-size:18px;color:rgb(170, 123, 170)"> Wish list</i></a> 
+ <!--Footer section -->
+ <div class="column left">
+    <footer id="footer">
+      <p>&#9400;Copyright @Junghyun 2022.<br>Any illegal reproduction of this content will result in immediate legal action.
+         Please contact <a href="mailto:jhyun@gmail.com">jhyun@gmail.com</a> for more information.</p>
+    </footer>
+ </div>
+</body>
+</html>
